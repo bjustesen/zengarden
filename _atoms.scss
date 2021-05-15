@@ -1,5 +1,36 @@
-@use 'variables' as *;
-h3{
-    background-color: $headline-background-color;
-    color:$headline-color;
+h1, h2, h3{
+     font-family: $fontHeading;
+}
+h1{
+    font-size: 20px;
+    font-weight: 100px;
+    animation: resize-anime 2s infinite forwards;
+    animation-direction: alternate;
+    position:absolute;
+	margin-top: -150px;
+	color: white;
+	margin-left: 200px;
+}
+p{
+    font-family: $fontParagraph;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $bodyBackground-color;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.page-wrapper{
+	background-color: $main-background-color;
+	border: 50px solid $tableBorder;
+	border-radius: 20px;
+	box-shadow: 0 0 5px 1px #000 inset;
+	z-index: 2;
+
 }
