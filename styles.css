@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+h3 {
+  background-color: #CCC78F;
+  color: #1B1B17;
+}
 
+.page-wrapper {
+  background-color: #257E46;
+  border: 30px solid #5C3A15;
+  margin: 0 auto;
+  max-width: 1080px;
+}
 
 /*# sourceMappingURL=styles.css.map */

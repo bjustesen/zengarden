@@ -1,4 +1,5 @@
-h1{
+@use 'variables' as *;
+h3{
     background-color: $headline-background-color;
     color:$headline-color;
 }
