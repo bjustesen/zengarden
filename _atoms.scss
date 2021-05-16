@@ -1,7 +1,7 @@
 @use 'variables' as *;
-// h1, h2, h3{
-//      font-family: $fontHeading;
-// }
+h1, h2, h3{
+     font-family: $fontHeading;
+}
 h1{
     font-size: 20px;
     font-weight: 100px;
@@ -13,7 +13,7 @@ h1{
 	margin-left: 200px;
 }
 p{
-    // font-family: $fontParagraph;
+    font-family: $fontParagraph;
 }
 *{
     margin: 0;
