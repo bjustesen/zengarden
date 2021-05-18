@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 h1, h2, h3 {
-  font-family: "Covered By Your Grace", cursive;
+  font-family: "Monoton", cursive;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
   margin-top: -150px;
   color: white;
   margin-left: 200px;
+  background-color: #CCC78F;
 }
 
 p {
