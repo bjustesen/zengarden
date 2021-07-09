@@ -4,13 +4,7 @@ h1, h2, h3{
      background-color: $headline-background-color;
 }
 h1{
-    font-size: 20px;
-    animation: resize-anime 2s infinite forwards;
-    animation-direction: alternate;
-    position:absolute;
-	margin-top: -150px;
-	color: white;
-	margin-left: 200px;
+    
     
 }
 p{
@@ -28,7 +22,7 @@ body{
     margin-bottom: 200px;
     margin-top: 200px;
 }
-.page-wrapper{
+.main{
 	background-color: $main-background-color;
 	// border: 50px solid $tableBorder;
 	border-radius: 20px;

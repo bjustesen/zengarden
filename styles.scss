@@ -2,7 +2,7 @@
 @use 'molecules';
 @use 'organisms' as o;  // can shorten the name if we like :)
 @use 'variables' as *;
-.page-wrapper{
+.main{
     background-color: $main-background-color;
     border: 30px solid $main-border-color;
     margin:0 auto;
