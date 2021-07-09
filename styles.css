@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 h1, h2, h3 {
   font-family: "Goblin One", cursive;
-  background-color: #CCC78F;
 }
 
 p {
-  font-family: "Covered By Your Grace", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -27,6 +27,34 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 5px 1px #000 inset;
   z-index: 2;
+}
+.main h1, .main h2, .main h3 {
+  background-color: #CCC78F;
+}
+.main p {
+  padding: 20px;
+}
+
+.explanation h3, .benefits h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: -80px;
+  border: 1px solid black;
+  border-right: 25px double black;
+  padding: 5px;
+  border-radius: 50px 100px 100px 50px;
+  width: 800px;
+}
+
+.participation h3, .requirements h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: 160px;
+  border: 1px solid black;
+  border-left: 25px double black;
+  padding: 5px;
+  border-radius: 100px 50px 50px 100px;
+  width: 800px;
 }
 
 .main {
