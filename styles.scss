@@ -2,9 +2,11 @@
 @use 'molecules';
 @use 'organisms' as o;  // can shorten the name if we like :)
 @use 'variables' as *;
-.main{
-    background-color: $main-background-color;
-    border: 30px solid $main-border-color;
+.main{ 
+  background-image: url('media/pooltable.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
     margin:0 auto;
     max-width: 1080px;
 }
@@ -26,19 +28,15 @@ p {
 }
 
 body {
-  display: block;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
-  margin-top: 200px;
+  background-image: url('media/backgroundphoto.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  max-width: 960px;
 }
 
-.main {
-  background-color: #257E46;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 1px #000 inset;
-  z-index: 2;
-}
+
 .main h1, .main h2, .main h3 {
   background-color: #CCC78F;
 }
@@ -68,12 +66,7 @@ body {
   width: 800px;
 }
 
-.main {
-  background-color: #257E46;
-  border: 30px solid #5C3A15;
-  margin: 0 auto;
-  max-width: 1080px;
-}
+
 
 .intro {
     background-color: whitesmoke;
