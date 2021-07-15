@@ -1,22 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 h1, h2, h3 {
   font-family: "Goblin One", cursive;
-  background-color: #CCC78F;
-}
-
-h1 {
-  font-size: 20px;
-  animation: resize-anime 2s infinite forwards;
-  animation-direction: alternate;
-  position: absolute;
-  margin-top: -150px;
-  color: white;
-  margin-left: 200px;
 }
 
 p {
-  font-family: "Covered By Your Grace", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -32,12 +25,49 @@ body {
   margin-top: 200px;
 }
 
-.page-wrapper {
+.main {
   background-color: #257E46;
   border-radius: 20px;
   box-shadow: 0 0 5px 1px #000 inset;
   z-index: 2;
 }
+.main h1, .main h2, .main h3 {
+  background-color: #CCC78F;
+}
+.main p {
+  padding: 20px;
+}
+
+.explanation h3, .benefits h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: -80px;
+  border: 1px solid black;
+  border-right: 25px double black;
+  padding: 5px;
+  border-radius: 50px 100px 100px 50px;
+  width: 800px;
+}
+
+.participation h3, .requirements h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: 160px;
+  border: 1px solid black;
+  border-left: 25px double black;
+  padding: 5px;
+  border-radius: 100px 50px 50px 100px;
+  width: 800px;
+}
+
+.main {
+  background-color: #257E46;
+  border: 30px solid #5C3A15;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+<<<<<<< HEAD
 /* Pool Balls */
 .extra1{
   display: block;
@@ -46,8 +76,13 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: red;
+<<<<<<< HEAD
   margin-top: -1000px;
   margin-left: -100px;
+=======
+  margin-top: -1500px;
+  margin-left: 80px;
+>>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
 
 }
 .extra1::after{
@@ -74,8 +109,13 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: purple;
+<<<<<<< HEAD
   margin-left: -150px;
   margin-top: -500px;
+=======
+  margin-left: 50px;
+  margin-top: -1450px;
+>>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
 
 
 }
@@ -103,7 +143,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: yellow;
-  margin-left: 100px;
+  margin-left: 80px;
+  margin-top: -950px;
 
 }
 .extra3::after{
@@ -130,7 +171,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: orange;
-  margin-left: 150px;
+  margin-left: 810px;
+  margin-top: -1130px;
 
 }
 .extra4::after{
@@ -156,8 +198,14 @@ body {
   height: 50px;
   border-radius: 50%;
   position: absolute;
+<<<<<<< HEAD
   background-color: lightgreen;
   margin-left: 900px;
+=======
+  background-color: rgb(157, 236, 157);
+  margin-left: 850px;
+  margin-top: -1100px;
+>>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
 
 }
 .extra5::after{
@@ -184,8 +232,13 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: black;
+<<<<<<< HEAD
   margin-left: 1000px;
   margin-top: -1400px;
+=======
+  margin-left: 830px;
+  margin-top: -1750px;
+>>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
 
 }
 .extra6::after{
@@ -206,31 +259,166 @@ body {
   line-height: 25px;
 }
 
-
-
-
-
-
-
 /* Pool Ball End */
 
-@keyframes resize-anime {
-  from {
-    font-size: 20px;
-    font-weight: 100px;
-    opacity: 0;
-  }
-  to {
-    font-size: 50px;
-    font-weight: 900px;
-    text-shadow: 0px 0px 5px purple;
-  }
+=======
+h1, h2, h3 {
+  font-family: "Goblin One", cursive;
 }
-.page-wrapper {
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+.main {
+  background-color: #257E46;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px #000 inset;
+  z-index: 2;
+}
+
+.main h1, .main h2, .main h3 {
+  background-color: #CCC78F;
+}
+
+.main p {
+  padding: 20px;
+}
+
+.explanation h3, .benefits h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: -80px;
+  border: 1px solid black;
+  border-right: 25px double black;
+  padding: 5px;
+  border-radius: 50px 100px 100px 50px;
+  width: 800px;
+}
+
+.participation h3, .requirements h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: 160px;
+  border: 1px solid black;
+  border-left: 25px double black;
+  padding: 5px;
+  border-radius: 100px 50px 50px 100px;
+  width: 800px;
+}
+
+.main {
   background-color: #257E46;
   border: 30px solid #5C3A15;
   margin: 0 auto;
   max-width: 1080px;
 }
+
+.intro {
+  background-color: whitesmoke;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+/* .header, h1 {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 2em;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 200px solid #D2B48C;
+  border-radius: 100em;
+} */
+.wrapper {
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+  padding: 2em;
+  border-radius: 3em;
+}
+
+.design-selection {
+  width: 250px;
+  height: 250px;
+  background: orange;
+  border-radius: 50%;
+}
+
+.design-selection ul {
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.design-archives {
+  width: 250px;
+  height: 250px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.design-archives ul {
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.zen-resources {
+  width: 250px;
+  height: 250px;
+  background: maroon;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.zen-resources ul {
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.wrapper a:link {
+  color: black;
+}
+
+.wrapper a:hover {
+  color: grey;
+}
+
+ul {
+  list-style: none;
+  font-size: 13px;
+}
+
+.wrapper, h3 {
+  padding-top: 3em;
+  font-size: 15px;
+}
+>>>>>>> 060cdbc0cdf65f19355d804af8f7bf3343f8a540
 
 /*# sourceMappingURL=styles.css.map */
