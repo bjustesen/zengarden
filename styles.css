@@ -47,16 +47,20 @@ body {
   width: 800px;
 }
 
-.main {
-  background-image: url("media/pool.jpg");
+.supporting {
+  background-image: url("media/pooltablereal.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 784px;
   z-index: -4;
+  height: 1461px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Goblin One", cursive;
 }
 
@@ -78,7 +82,9 @@ body {
   max-width: 960px;
 }
 
-.main h1, .main h2, .main h3 {
+.main h1,
+.main h2,
+.main h3 {
   background-color: #CCC78F;
 }
 
@@ -86,7 +92,45 @@ body {
   padding: 20px;
 }
 
-.explanation h3, .benefits h3 {
+.explanation, .benefits, .participation, .requirements {
+  position: absolute;
+  max-width: 784px;
+}
+
+.supporting p {
+  padding: 5px 90px;
+  color: white;
+}
+
+.explanation {
+  margin-top: 20px;
+}
+
+.participation {
+  margin-top: 350px;
+}
+
+.benefits {
+  margin-top: 700px;
+}
+
+.requirements {
+  margin-top: 850px;
+}
+
+.explanation h3 {
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-left: -100px;
+  border: 1px solid black;
+  border-right: 25px double black;
+  padding: 5px;
+  border-radius: 50px 100px 100px 50px;
+  width: 700px;
+}
+
+.benefits h3 {
   text-align: center;
   margin: 1em;
   margin-left: -80px;
@@ -94,10 +138,15 @@ body {
   border-right: 25px double black;
   padding: 5px;
   border-radius: 50px 100px 100px 50px;
-  width: 800px;
+  width: 700px;
 }
 
-.participation h3, .requirements h3 {
+.requirements {
+  margin-bottom: -150px;
+}
+
+.participation h3,
+.requirements h3 {
   text-align: center;
   margin: 1em;
   margin-left: 160px;
@@ -105,7 +154,7 @@ body {
   border-left: 25px double black;
   padding: 5px;
   border-radius: 100px 50px 50px 100px;
-  width: 800px;
+  width: 700px;
 }
 
 .intro {
@@ -125,14 +174,14 @@ body {
 }
 
 /* .header, h1 {
-  text-align: center;
-  background-color: transparent;
-  padding-top: 2em;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-bottom: 200px solid #D2B48C;
-  border-radius: 100em;
-} */
+    text-align: center;
+    background-color: transparent;
+    padding-top: 2em;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid #D2B48C;
+    border-radius: 100em;
+  } */
 .wrapper {
   text-align: center;
   list-style: none;
@@ -225,7 +274,8 @@ ul {
   font-size: 13px;
 }
 
-.wrapper, h3 {
+.wrapper,
+h3 {
   padding-top: 3em;
   font-size: 15px;
 }

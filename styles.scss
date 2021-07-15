@@ -1,20 +1,26 @@
-@use 'atoms';  // assumes file is named _atoms.scss
+@use 'atoms'; // assumes file is named _atoms.scss
 @use 'molecules';
-@use 'organisms' as o;  // can shorten the name if we like :)
-@use 'variables' as *;
+@use 'organisms'as o; // can shorten the name if we like :)
+@use 'variables'as *;
 @import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.main{ 
-  background-image: url('media/pool.jpg');
+.supporting {
+  background-image: url('media/pooltablereal.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-    margin:0 auto;
-    max-width: 1080px;
-    z-index: -4;
+  background-size: auto;
+  background-position: center;
+  margin: 0 auto;
+  max-width: 784px;
+  z-index: -4;
+  height: 1461px;
+
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   font-family: "Goblin One", cursive;
 }
 
@@ -36,14 +42,52 @@ body {
   max-width: 960px;
 }
 
-.main h1, .main h2, .main h3 {
+.main h1,
+.main h2,
+.main h3 {
   background-color: #CCC78F;
 }
+
 .main p {
   padding: 20px;
 }
+.explanation, .benefits, .participation, .requirements{
+  position: absolute;
+  max-width: 784px;
+}
+.supporting p {
+  padding: 5px 90px;
+  color: white;
+}
+.explanation{
+  margin-top: 20px;
+}
+.participation{
+  margin-top: 350px;
 
-.explanation h3, .benefits h3 {
+}
+.benefits{
+  margin-top: 700px;
+}
+.requirements{
+  margin-top: 850px;
+}
+.explanation h3{
+  
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-left: -100px;
+  border: 1px solid black;
+  border-right: 25px double black;
+  padding: 5px;
+  border-radius: 50px 100px 100px 50px;
+  width: 700px;
+}
+
+
+.benefits h3 {
+
   text-align: center;
   margin: 1em;
   margin-left: -80px;
@@ -51,10 +95,15 @@ body {
   border-right: 25px double black;
   padding: 5px;
   border-radius: 50px 100px 100px 50px;
-  width: 800px;
+  width: 700px;
 }
 
-.participation h3, .requirements h3 {
+.requirements{
+  margin-bottom:-150px;
+}
+
+.participation h3,
+.requirements h3 {
   text-align: center;
   margin: 1em;
   margin-left: 160px;
@@ -62,23 +111,23 @@ body {
   border-left: 25px double black;
   padding: 5px;
   border-radius: 100px 50px 50px 100px;
-  width: 800px;
+  width: 700px;
 }
 
 
 
 .intro {
-    background-color: whitesmoke;
-    padding: 1em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
-  }
-  
-  .intro h1 {
-    font-size: 40px;
-  }
-  
-  /* .header, h1 {
+  background-color: whitesmoke;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+/* .header, h1 {
     text-align: center;
     background-color: transparent;
     padding-top: 2em;
@@ -87,77 +136,78 @@ body {
     border-bottom: 200px solid #D2B48C;
     border-radius: 100em;
   } */
-  
-  .wrapper {
-    text-align: center;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
-    padding: 2em;
-    border-radius: 3em;
-  }
-  
-  .design-selection {
-    width: 250px;
-    height: 250px;
-    background: orange;
-    border-radius: 50%;
 
-  }
-  
-  .design-selection  ul {
-    background-color: white;
-    border-radius: 50%;
-    width: 175px;
-    height: 175px;
-    margin: 0 auto;
-  }
-  
-  .design-archives {
-    width: 250px;
-    height: 250px;
-    background: yellow;
-    border-radius: 50%;
-  }
-  
-  .design-archives  ul {
-    background-color: white;
-    border-radius: 50%;
-    width: 175px;
-    height: 175px;
-    margin: 0 auto;
-  }
-  
-  .zen-resources {
-    width: 250px;
-    height: 250px;
-    background: maroon;
-    border-radius: 50%;
-    list-style: none;
-  }
-  
-  .zen-resources  ul {
-    background-color: white;
-    border-radius: 50%;
-    width: 175px;
-    height: 175px;
-    margin: 0 auto;
-  }
-  
-  .wrapper a:link {
-    color: black;
-  }
-  
-  .wrapper a:hover {
-    color: grey;
-  }
-  
-  ul {
-    list-style: none;
-    font-size: 13px;
-  }
-  
-  .wrapper, h3 {
-    padding-top: 3em;
-    font-size: 15px;
-  }
+.wrapper {
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+  padding: 2em;
+  border-radius: 3em;
+}
+
+.design-selection {
+  width: 250px;
+  height: 250px;
+  background: orange;
+  border-radius: 50%;
+
+}
+
+.design-selection ul {
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.design-archives {
+  width: 250px;
+  height: 250px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.design-archives ul {
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.zen-resources {
+  width: 250px;
+  height: 250px;
+  background: maroon;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.zen-resources ul {
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.wrapper a:link {
+  color: black;
+}
+
+.wrapper a:hover {
+  color: grey;
+}
+
+ul {
+  list-style: none;
+  font-size: 13px;
+}
+
+.wrapper,
+h3 {
+  padding-top: 3em;
+  font-size: 15px;
+}
