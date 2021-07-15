@@ -56,6 +56,181 @@ body {
   max-width: 1080px;
 }
 
+
+/* Pool Balls */
+.extra1{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  margin-top: -1510px;
+  margin-left: 80px;
+
+}
+.extra1::after{
+  content: "1";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+.extra2{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: purple;
+  margin-left: 50px;
+  margin-top: -1460px;
+
+
+}
+.extra2::after{
+  content: "2";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+.extra3{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: yellow;
+  margin-left: 70px;
+  margin-top: -950px;
+
+}
+.extra3::after{
+  content: "3";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+.extra4{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: orange;
+  margin-left: 780px;
+  margin-top: -1150px;
+
+}
+.extra4::after{
+  content: "4";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+.extra5{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(157, 236, 157);
+  margin-left: 780px;
+  margin-top: -1090px;
+
+}
+.extra5::after{
+  content: "5";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+.extra6{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  margin-left: 785px;
+  margin-top: -1780px;
+
+}
+.extra6::after{
+  content: "0";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+
+/* Pool Ball End */
+
+
 h1, h2, h3 {
   font-family: "Goblin One", cursive;
 }
@@ -119,15 +294,6 @@ body {
   font-size: 40px;
 }
 
-/* .header, h1 {
-  text-align: center;
-  background-color: transparent;
-  padding-top: 2em;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-bottom: 200px solid #D2B48C;
-  border-radius: 100em;
-} */
 .wrapper {
   text-align: center;
   list-style: none;
@@ -142,14 +308,17 @@ body {
   height: 250px;
   background: orange;
   border-radius: 50%;
+  margin: 0 auto;
+ 
 }
 
 .design-selection ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
-  margin: 0 auto;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  margin-top: -15px;
 }
 
 .design-archives {
@@ -157,14 +326,16 @@ body {
   height: 250px;
   background: yellow;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .design-archives ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 130px;
+  height: 130px;
   margin: 0 auto;
+  margin-top: -15px;
 }
 
 .zen-resources {
@@ -173,14 +344,16 @@ body {
   background: maroon;
   border-radius: 50%;
   list-style: none;
+  margin: 0 auto;
 }
 
 .zen-resources ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 130px;
+  height: 130px;
   margin: 0 auto;
+  margin-top: -15px;
 }
 
 .wrapper a:link {
@@ -188,17 +361,24 @@ body {
 }
 
 .wrapper a:hover {
-  color: grey;
+  color: blue;
 }
 
-ul {
+.wrapper ul {
   list-style: none;
-  font-size: 13px;
+  font-size: 12px;
+  padding: 1.5em;
 }
 
-.wrapper, h3 {
-  padding-top: 3em;
+.design-selection h3 {
+  padding-bottom: 2em;
   font-size: 15px;
 }
+/* 
+.wrapper h3 {
+  padding-top: 2em;
+  font-size: 15px;
+  margin-top: -50px;
+}  */
 
 /*# sourceMappingURL=styles.css.map */
