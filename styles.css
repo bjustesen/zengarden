@@ -110,10 +110,15 @@ body {
 
 .intro {
   background-color: whitesmoke;
-  padding: 1em;
+  padding: 2em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+  grid-template-rows: repeat;
+  border-radius: 1em;
 }
+
+
+
 
 .intro h1 {
   font-size: 40px;
@@ -137,6 +142,10 @@ body {
   border-radius: 3em;
 }
 
+.select {
+  margin-top: -25px;
+}
+
 .design-selection {
   width: 250px;
   height: 250px;
@@ -145,11 +154,17 @@ body {
 }
 
 .design-selection ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
   width: 175px;
   height: 175px;
   margin: 0 auto;
+}
+
+.archives {
+  margin-top: -25px;
+
+
 }
 
 .design-archives {
@@ -159,12 +174,21 @@ body {
   border-radius: 50%;
 }
 
+
 .design-archives ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
   width: 175px;
   height: 175px;
   margin: 0 auto;
+  font-size: 11px;
+  padding: .25em;
+  margin-top: 5px;
+  /* padding: 1em; */
+}
+
+.resources {
+  margin-top: -25px;
 }
 
 .zen-resources {
@@ -173,14 +197,17 @@ body {
   background: maroon;
   border-radius: 50%;
   list-style: none;
+ 
 }
 
 .zen-resources ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
   width: 175px;
   height: 175px;
   margin: 0 auto;
+  font-size: 11px;
+  margin-top: 5px;
 }
 
 .wrapper a:link {
@@ -190,7 +217,9 @@ body {
 .wrapper a:hover {
   color: grey;
 }
-
+ /* .wrapper ul {
+   padding: 1.5em;
+ } */
 ul {
   list-style: none;
   font-size: 13px;
