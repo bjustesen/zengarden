@@ -257,10 +257,9 @@ p {
 
 body {
   display: block;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
-  margin-top: 200px;
+  margin: 0 auto;
+  max-width: 960px;
+
 }
 
 .main {
@@ -397,14 +396,16 @@ body {
   color: grey;
 }
 
-ul {
+.wrapper ul {
   list-style: none;
   font-size: 13px;
+  padding: 1.5em;
 }
 
-.wrapper, h3 {
+.wrapper h3 {
   padding-top: 3em;
   font-size: 15px;
+  /* margin-top: -50px; */
 } 
 
 /*# sourceMappingURL=styles.css.map */
