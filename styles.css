@@ -76,13 +76,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: red;
-<<<<<<< HEAD
-  margin-top: -1000px;
-  margin-left: -100px;
-=======
-  margin-top: -1500px;
+  margin-top: -1510px;
   margin-left: 80px;
->>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
 
 }
 .extra1::after{
@@ -109,13 +104,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: purple;
-<<<<<<< HEAD
-  margin-left: -150px;
-  margin-top: -500px;
-=======
   margin-left: 50px;
-  margin-top: -1450px;
->>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
+  margin-top: -1460px;
 
 
 }
@@ -143,7 +133,7 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: yellow;
-  margin-left: 80px;
+  margin-left: 70px;
   margin-top: -950px;
 
 }
@@ -171,8 +161,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: orange;
-  margin-left: 810px;
-  margin-top: -1130px;
+  margin-left: 780px;
+  margin-top: -1150px;
 
 }
 .extra4::after{
@@ -198,14 +188,9 @@ body {
   height: 50px;
   border-radius: 50%;
   position: absolute;
-<<<<<<< HEAD
-  background-color: lightgreen;
-  margin-left: 900px;
-=======
   background-color: rgb(157, 236, 157);
-  margin-left: 850px;
-  margin-top: -1100px;
->>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
+  margin-left: 780px;
+  margin-top: -1090px;
 
 }
 .extra5::after{
@@ -232,13 +217,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: black;
-<<<<<<< HEAD
-  margin-left: 1000px;
-  margin-top: -1400px;
-=======
-  margin-left: 830px;
-  margin-top: -1750px;
->>>>>>> f1d4605e1831469608d9959d3b1482622312cfe3
+  margin-left: 785px;
+  margin-top: -1780px;
 
 }
 .extra6::after{
