@@ -67,7 +67,7 @@ body {
   max-width: 1080px;
 }
 
-<<<<<<< HEAD
+
 /* Pool Balls */
 .extra1{
   display: block;
@@ -241,7 +241,7 @@ body {
 
 /* Pool Ball End */
 
-=======
+
 h1, h2, h3 {
   font-family: "Goblin One", cursive;
 }
@@ -261,6 +261,7 @@ body {
   margin-right: 200px;
   margin-bottom: 200px;
   margin-top: 200px;
+
 }
 
 .main {
@@ -399,6 +400,6 @@ ul {
   padding-top: 3em;
   font-size: 15px;
 }
->>>>>>> 060cdbc0cdf65f19355d804af8f7bf3343f8a540
+
 
 /*# sourceMappingURL=styles.css.map */
