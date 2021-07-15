@@ -41,61 +41,65 @@ body {
 /* Pool Balls */
 .extra1{
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: absolute;
   background-color: red;
+  margin-top: -1000px;
+  margin-left: -100px;
 
 }
 .extra1::after{
   content: "1";
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -9px 0 0 -9px;
+  margin: -12px 0 0 -12px;
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   color: red;
   text-align: center;
-  line-height: 18px;
+  line-height: 25px;
 }
 .extra2{
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: absolute;
   background-color: purple;
-  margin-left: 50px;
+  margin-left: -150px;
+  margin-top: -500px;
+
 
 }
 .extra2::after{
   content: "2";
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -9px 0 0 -9px;
+  margin: -12px 0 0 -12px;
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   color: red;
   text-align: center;
-  line-height: 18px;
+  line-height: 25px;
 }
 .extra3{
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: absolute;
   background-color: yellow;
@@ -104,25 +108,25 @@ body {
 }
 .extra3::after{
   content: "3";
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -9px 0 0 -9px;
+  margin: -12px 0 0 -12px;
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   color: red;
   text-align: center;
-  line-height: 18px;
+  line-height: 25px;
 }
 .extra4{
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: absolute;
   background-color: orange;
@@ -131,74 +135,75 @@ body {
 }
 .extra4::after{
   content: "4";
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -9px 0 0 -9px;
+  margin: -12px 0 0 -12px;
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   color: red;
   text-align: center;
-  line-height: 18px;
+  line-height: 25px;
 }
 .extra5{
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: absolute;
   background-color: lightgreen;
-  margin-left: 200px;
+  margin-left: 900px;
 
 }
 .extra5::after{
   content: "5";
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -9px 0 0 -9px;
+  margin: -12px 0 0 -12px;
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   color: red;
   text-align: center;
-  line-height: 18px;
+  line-height: 25px;
 }
 .extra6{
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: absolute;
   background-color: black;
-  margin-left: 250px;
+  margin-left: 1000px;
+  margin-top: -1400px;
 
 }
 .extra6::after{
   content: "0";
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -9px 0 0 -9px;
+  margin: -12px 0 0 -12px;
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   color: red;
   text-align: center;
-  line-height: 18px;
+  line-height: 25px;
 }
 
 
