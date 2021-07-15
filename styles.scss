@@ -2,18 +2,18 @@
 @use 'molecules';
 @use 'organisms' as o;  // can shorten the name if we like :)
 @use 'variables' as *;
-.main{ 
-  background-image: url('media/pooltable.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-    margin:0 auto;
-    max-width: 1080px;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main{ 
+  background-image: url('media/pool.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    margin:0 auto;
+    max-width: 1080px;
+    z-index: -4;
+}
 h1, h2, h3 {
   font-family: "Goblin One", cursive;
 }
@@ -35,7 +35,6 @@ body {
   margin: 0 auto;
   max-width: 960px;
 }
-
 
 .main h1, .main h2, .main h3 {
   background-color: #CCC78F;
