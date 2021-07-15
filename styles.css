@@ -257,10 +257,12 @@ p {
 
 body {
   display: block;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
-  margin-top: 200px;
+  margin: 0 auto;
+  max-width: 960px;
+  background-image: url('media/backgroundphoto.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 
 }
 
@@ -319,15 +321,6 @@ body {
   font-size: 40px;
 }
 
-/* .header, h1 {
-  text-align: center;
-  background-color: transparent;
-  padding-top: 2em;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-bottom: 200px solid #D2B48C;
-  border-radius: 100em;
-} */
 .wrapper {
   text-align: center;
   list-style: none;
@@ -342,14 +335,17 @@ body {
   height: 250px;
   background: orange;
   border-radius: 50%;
+  margin: 0 auto;
+ 
 }
 
 .design-selection ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
-  margin: 0 auto;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  margin-top: -15px;
 }
 
 .design-archives {
@@ -357,14 +353,16 @@ body {
   height: 250px;
   background: yellow;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .design-archives ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 130px;
+  height: 130px;
   margin: 0 auto;
+  margin-top: -15px;
 }
 
 .zen-resources {
@@ -373,14 +371,16 @@ body {
   background: maroon;
   border-radius: 50%;
   list-style: none;
+  margin: 0 auto;
 }
 
 .zen-resources ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 130px;
+  height: 130px;
   margin: 0 auto;
+  margin-top: -15px;
 }
 
 .wrapper a:link {
@@ -388,18 +388,24 @@ body {
 }
 
 .wrapper a:hover {
-  color: grey;
+  color: blue;
 }
 
-ul {
+.wrapper ul {
   list-style: none;
-  font-size: 13px;
+  font-size: 12px;
+  padding: 1.5em;
 }
 
-.wrapper, h3 {
-  padding-top: 3em;
+.design-selection h3 {
+  padding-bottom: 2em;
   font-size: 15px;
 }
-
+/* 
+.wrapper h3 {
+  padding-top: 2em;
+  font-size: 15px;
+  margin-top: -50px;
+}  */
 
 /*# sourceMappingURL=styles.css.map */
