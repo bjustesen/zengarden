@@ -19,19 +19,7 @@ body{
     margin-bottom: 200px;
     margin-top: 200px;
 }
-.main{
-	background-color: $main-background-color;
-	// border: 50px solid $tableBorder;
-	border-radius: 20px;
-	box-shadow: 0 0 5px 1px #000 inset;
-	z-index: 2;
-    h1, h2, h3{
-        background-color: $headline-background-color;
-    }
-    p{
-        padding: 20px;
-    }
-}
+
 .explanation h3, .benefits h3{
     text-align: center;
     margin: 1em;
