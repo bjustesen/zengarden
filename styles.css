@@ -166,14 +166,16 @@ body {
   height: 250px;
   background: orange;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .design-selection ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
   width: 175px;
   height: 175px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: -25px;
 }
 
 .design-archives {
@@ -181,14 +183,16 @@ body {
   height: 250px;
   background: yellow;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .design-archives ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
   width: 175px;
   height: 175px;
   margin: 0 auto;
+  margin-top: -25px;
 }
 
 .zen-resources {
@@ -197,14 +201,16 @@ body {
   background: maroon;
   border-radius: 50%;
   list-style: none;
+  margin: 0 auto;
 }
 
 .zen-resources ul {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 130px;
+  height: 130px;
   margin: 0 auto;
+  margin-top: -25px;
 }
 
 .wrapper a:link {
