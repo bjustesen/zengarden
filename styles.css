@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 h1, h2, h3 {
   font-family: "Goblin One", cursive;
 }
@@ -64,7 +67,72 @@ body {
   max-width: 1080px;
 }
 
-/* .intro {
+h1, h2, h3 {
+  font-family: "Goblin One", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+.main {
+  background-color: #257E46;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px #000 inset;
+  z-index: 2;
+}
+
+.main h1, .main h2, .main h3 {
+  background-color: #CCC78F;
+}
+
+.main p {
+  padding: 20px;
+}
+
+.explanation h3, .benefits h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: -80px;
+  border: 1px solid black;
+  border-right: 25px double black;
+  padding: 5px;
+  border-radius: 50px 100px 100px 50px;
+  width: 800px;
+}
+
+.participation h3, .requirements h3 {
+  text-align: center;
+  margin: 1em;
+  margin-left: 160px;
+  border: 1px solid black;
+  border-left: 25px double black;
+  padding: 5px;
+  border-radius: 100px 50px 50px 100px;
+  width: 800px;
+}
+
+.main {
+  background-color: #257E46;
+  border: 30px solid #5C3A15;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.intro {
   background-color: whitesmoke;
   padding: 1em;
   display: grid;
@@ -73,7 +141,7 @@ body {
 
 .intro h1 {
   font-size: 40px;
-} */
+}
 
 /* .header, h1 {
   text-align: center;
@@ -84,8 +152,7 @@ body {
   border-bottom: 200px solid #D2B48C;
   border-radius: 100em;
 } */
-
-/* .wrapper {
+.wrapper {
   text-align: center;
   list-style: none;
   display: grid;
@@ -101,7 +168,7 @@ body {
   border-radius: 50%;
 }
 
-.design-selection  ul {
+.design-selection ul {
   background-color: white;
   border-radius: 50%;
   width: 175px;
@@ -116,7 +183,7 @@ body {
   border-radius: 50%;
 }
 
-.design-archives  ul {
+.design-archives ul {
   background-color: white;
   border-radius: 50%;
   width: 175px;
@@ -132,7 +199,7 @@ body {
   list-style: none;
 }
 
-.zen-resources  ul {
+.zen-resources ul {
   background-color: white;
   border-radius: 50%;
   width: 175px;
@@ -156,5 +223,6 @@ ul {
 .wrapper, h3 {
   padding-top: 3em;
   font-size: 15px;
-} */
+}
+
 /*# sourceMappingURL=styles.css.map */
