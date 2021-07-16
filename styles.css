@@ -12,51 +12,20 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  display: block;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
-  margin-top: 200px;
-}
-
-.explanation h3, .benefits h3 {
-  text-align: center;
-  margin: 1em;
-  margin-left: -80px;
-  border: 1px solid black;
-  border-right: 25px double black;
-  padding: 5px;
-  border-radius: 50px 100px 100px 50px;
-  width: 800px;
-}
-
-.participation h3, .requirements h3 {
-  text-align: center;
-  margin: 1em;
-  margin-left: 160px;
-  border: 1px solid black;
-  border-left: 25px double black;
-  padding: 5px;
-  border-radius: 100px 50px 50px 100px;
-  width: 800px;
-}
-
-.main {
-  background-image: url("media/pool.jpg");
+.supporting {
+  background-image: url("media/pooltablereal.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 784px;
   z-index: -4;
+  height: 1461px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Goblin One", cursive;
 }
 
@@ -78,34 +47,115 @@ body {
   max-width: 960px;
 }
 
-.main h1, .main h2, .main h3 {
-  background-color: #CCC78F;
-}
-
 .main p {
   padding: 20px;
 }
 
-.explanation h3, .benefits h3 {
-  text-align: center;
-  margin: 1em;
-  margin-left: -80px;
-  border: 1px solid black;
-  border-right: 25px double black;
-  padding: 5px;
-  border-radius: 50px 100px 100px 50px;
-  width: 800px;
+.explanation,
+.benefits,
+.participation,
+.requirements {
+  position: absolute;
+  width: 1000px;
 }
 
-.participation h3, .requirements h3 {
+.explanation p,
+.benefits p,
+.participation p,
+.requirements p {
+  width: 615px;
+}
+
+.supporting p {
+  padding: 5px 90px;
+  color: white;
+}
+
+.supporting a {
+  color: #F8FA90;
+  padding: 0 5px;
+}
+
+.supporting a:hover {
+  color: #127E5C;
+  background-color: #F8FA90;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.explanation {
+  margin-top: 20px;
+}
+
+.participation {
+  margin-top: 330px;
+}
+
+.benefits {
+  margin-top: 620px;
+}
+
+.requirements {
+  margin-top: 780px;
+}
+
+.explanation h3, .benefits h3 {
+  background-image: url("media/poolstick.png");
+  background-repeat: no-repeat;
+  background-size: 850px;
+  height: 400px;
+  z-index: 3;
+  color: #FAE5CF;
+  font-size: 1.5em;
+  margin-left: -150px;
+  margin-bottom: -350px;
   text-align: center;
-  margin: 1em;
-  margin-left: 160px;
-  border: 1px solid black;
-  border-left: 25px double black;
-  padding: 5px;
-  border-radius: 100px 50px 50px 100px;
-  width: 800px;
+}
+
+.benefits h3 {
+  padding-right: 460px;
+}
+
+.explanation h3 {
+  padding-right: 180px;
+}
+
+.requirements {
+  margin-bottom: -150px;
+}
+
+.requirements h3 {
+  background-image: url("media/otherwaypoolstick.png");
+  background-repeat: no-repeat;
+  background-size: 850px;
+  height: 400px;
+  z-index: 3;
+  margin-left: 90px;
+  color: #FAE5CF;
+  font-size: 1.5em;
+  margin-bottom: -340px;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.participation h3 {
+  padding-top: 15px;
+  background-image: url("media/partcipation.png");
+  background-repeat: no-repeat;
+  background-size: 850px;
+  height: 400px;
+  z-index: 3;
+  margin-left: 90px;
+  color: #FAE5CF;
+  font-size: 1.5em;
+  margin-bottom: -340px;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.requirements p:nth-child(6) {
+  text-align: center;
+  font-size: x-small;
+  margin-top: 20px;
 }
 
 .intro {
@@ -120,14 +170,14 @@ body {
 }
 
 /* .header, h1 {
-  text-align: center;
-  background-color: transparent;
-  padding-top: 2em;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-bottom: 200px solid #D2B48C;
-  border-radius: 100em;
-} */
+    text-align: center;
+    background-color: transparent;
+    padding-top: 2em;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid #D2B48C;
+    border-radius: 100em;
+  } */
 .wrapper {
   text-align: center;
   list-style: none;
@@ -196,11 +246,86 @@ ul {
   font-size: 13px;
 }
 
-.wrapper, h3 {
+.wrapper,
+h3 {
   padding-top: 3em;
   font-size: 15px;
 }
 
+@media screen and (max-width: 550px) {
+  .supporting {
+    width: auto;
+    background-size: 100% 100%;
+  }
+
+  body {
+    max-width: 550px;
+  }
+
+  .explanation p,
+.benefits p,
+.participation p,
+.requirements p {
+    width: 300px;
+    padding: 0 50px;
+    font-size: 0.7em;
+  }
+
+  .benefits p {
+    margin-top: 20px;
+  }
+
+  .explanation,
+.benefits,
+.participation,
+.requirements {
+    width: auto;
+  }
+
+  .explanation h3,
+.benefits h3 {
+    margin-left: -100px;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.3em;
+  }
+
+  .explanation h3 {
+    padding-left: 105px;
+    margin-bottom: -330px;
+  }
+
+  .benefits h3 {
+    padding-left: 90px;
+  }
+
+  .requirements h3 {
+    padding-left: 90px;
+    padding-bottom: 0.5em;
+  }
+
+  .participation {
+    margin-top: 350px;
+  }
+
+  .benefits {
+    margin-top: 620px;
+  }
+
+  .requirements {
+    margin-top: 800px;
+  }
+
+  .participation h3,
+.requirements h3 {
+    font-size: 1.3em;
+    margin-left: -100px;
+  }
+
+  .participation h3 {
+    padding-left: 90px;
+  }
+}
 /* Pool Balls */
 .extra1 {
   display: block;
@@ -209,8 +334,8 @@ ul {
   border-radius: 50%;
   position: absolute;
   background-color: red;
-  margin-top: -1510px;
-  margin-left: 80px;
+  margin-top: -1455px;
+  margin-left: 170px;
 }
 
 .extra1::after {
@@ -238,8 +363,8 @@ ul {
   border-radius: 50%;
   position: absolute;
   background-color: purple;
-  margin-left: 50px;
-  margin-top: -1460px;
+  margin-left: 180px;
+  margin-top: -960px;
 }
 
 .extra2::after {
@@ -267,8 +392,8 @@ ul {
   border-radius: 50%;
   position: absolute;
   background-color: yellow;
-  margin-left: 70px;
-  margin-top: -950px;
+  margin-left: 140px;
+  margin-top: -420px;
 }
 
 .extra3::after {
@@ -296,8 +421,8 @@ ul {
   border-radius: 50%;
   position: absolute;
   background-color: orange;
-  margin-left: 780px;
-  margin-top: -1150px;
+  margin-left: 720px;
+  margin-top: -1110px;
 }
 
 .extra4::after {
@@ -325,8 +450,8 @@ ul {
   border-radius: 50%;
   position: absolute;
   background-color: #9dec9d;
-  margin-left: 780px;
-  margin-top: -1090px;
+  margin-left: 770px;
+  margin-top: -424px;
 }
 
 .extra5::after {
@@ -354,8 +479,8 @@ ul {
   border-radius: 50%;
   position: absolute;
   background-color: black;
-  margin-left: 785px;
-  margin-top: -1780px;
+  margin-left: 700px;
+  margin-top: -1708px;
 }
 
 .extra6::after {
