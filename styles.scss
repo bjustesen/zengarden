@@ -104,10 +104,10 @@ body {
   text-align: center;
 }
 .benefits h3{
-  padding-right: 480px;
+  padding-right: 460px;
 }
 .explanation h3{
-  padding-right: 200px;
+  padding-right: 180px;
 }
 
 .requirements {
@@ -242,4 +242,76 @@ ul {
 h3 {
   padding-top: 3em;
   font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 550px) { 
+  .supporting {
+    width:  auto;
+  background-size: 100% 100%;
+    
+  }
+  body{
+    max-width: 550px;
+  }
+  .explanation p,
+.benefits p,
+.participation p,
+.requirements p {
+  width: 300px;
+  padding: 0 50px;
+  font-size: .7em;
+}
+
+.benefits p{
+  margin-top: 20px;
+}
+.explanation,
+.benefits,
+.participation,
+.requirements {
+  width: auto;
+}
+.explanation h3,
+.benefits h3{
+  margin-left: -100px;
+  padding-right:0;
+  padding-left:0;
+  font-size: 1.3em;
+}
+.explanation h3{
+  padding-left: 105px;
+  margin-bottom: -330px;
+}
+.benefits h3{
+  padding-left: 90px;
+}
+.requirements h3{
+  padding-left: 90px;
+  padding-bottom: .5em;
+}
+.participation {
+  margin-top: 350px;
+
+}
+
+.benefits {
+  margin-top: 620px;
+}
+
+.requirements {
+  margin-top: 800px;
+}
+
+.participation h3,
+.requirements h3 {
+  font-size: 1.3em;
+  margin-left:-100px;
+}
+.participation h3{
+  padding-left: 90px;
+}
+
+
 }
