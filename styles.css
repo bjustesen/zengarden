@@ -252,6 +252,10 @@ h3 {
   font-size: 15px;
 }
 
+.extra1, .extra2, .extra3, .extra4, .extra5, .extra6 {
+  display: none;
+}
+
 @media screen and (max-width: 550px) {
   .supporting {
     width: auto;
