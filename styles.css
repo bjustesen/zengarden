@@ -161,7 +161,7 @@ body {
   background-color: whitesmoke;
   padding: 2em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(4em, 3fr));
   grid-template-rows: repeat;
   border-radius: 1em;
 }
@@ -212,8 +212,6 @@ body {
 
 .archives {
   margin-top: -25px;
-
-
 }
 
 .design-archives {
@@ -246,7 +244,7 @@ body {
   background: maroon;
   border-radius: 50%;
   list-style: none;
- 
+  
 }
 
 .zen-resources ul {
