@@ -5,9 +5,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+h1, h2, h3 {
+  font-family: "Goblin One", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
 
 .supporting {
-  background-image: url('media/pooltablereal.png');
+  background-image: url("media/pooltablereal.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -15,7 +22,6 @@
   max-width: 784px;
   z-index: -4;
   height: 1461px;
-
 }
 
 h1,
@@ -34,7 +40,7 @@ p {
 }
 
 body {
-  background-image: url('media/backgroundphoto.jpg');
+  background-image: url("media/backgroundphoto.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -59,7 +65,6 @@ body {
 .participation p,
 .requirements p {
   width: 615px;
-
 }
 
 .supporting p {
@@ -84,7 +89,6 @@ body {
 
 .participation {
   margin-top: 330px;
-
 }
 
 .benefits {
@@ -97,7 +101,7 @@ body {
 
 .explanation h3,
 .benefits h3 {
-  background-image: url('media/poolstick.png');
+  background-image: url("media/poolstick.png");
   background-repeat: no-repeat;
   background-size: 850px;
   height: 400px;
@@ -121,9 +125,8 @@ body {
   margin-bottom: -150px;
 }
 
-
 .requirements h3 {
-  background-image: url('media/otherwaypoolstick.png');
+  background-image: url("media/otherwaypoolstick.png");
   background-repeat: no-repeat;
   background-size: 850px;
   height: 400px;
@@ -138,7 +141,7 @@ body {
 
 .participation h3 {
   padding-top: 15px;
-  background-image: url('media/partcipation.png');
+  background-image: url("media/partcipation.png");
   background-repeat: no-repeat;
   background-size: 850px;
   height: 400px;
@@ -157,101 +160,246 @@ body {
   margin-top: 20px;
 }
 
-// .intro {
-//   background-color: whitesmoke;
-//   padding: 1em;
-//   display: grid;
-//   grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
-// }
+.intro {
+  background-color: whitesmoke;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+}
 
-// .intro h1 {
-//   font-size: 40px;
-// }
+.wrapper {
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
+  padding: 2em;
+  border-radius: 3em;
+}
 
-/* .header, h1 {
-    text-align: center;
-    background-color: transparent;
-    padding-top: 2em;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 200px solid #D2B48C;
-    border-radius: 100em;
-  } */
+.design-selection {
+  width: 250px;
+  height: 250px;
+  background: orange;
+  border-radius: 50%;
+}
 
-// .wrapper {
-//   text-align: center;
-//   list-style: none;
-//   display: grid;
-//   grid-template-columns: repeat(auto-fit, minmax(6em, 3fr));
-//   padding: 2em;
-//   border-radius: 3em;
-// }
+.design-archives {
+  width: 250px;
+  height: 250px;
+  background: yellow;
+  border-radius: 50%;
+}
 
-// .design-selection {
-//   width: 250px;
-//   height: 250px;
-//   background: orange;
-//   border-radius: 50%;
+.zen-resources {
+  width: 250px;
+  height: 250px;
+  background: maroon;
+  border-radius: 50%;
+  list-style: none;
+}
 
-// }
+.zen-resources ul {
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+}
 
-// .design-selection ul {
-//   background-color: white;
-//   border-radius: 50%;
-//   width: 175px;
-//   height: 175px;
-//   margin: 0 auto;
-// }
+.wrapper a:link {
+  color: black;
+}
 
-// .design-archives {
-//   width: 250px;
-//   height: 250px;
-//   background: yellow;
-//   border-radius: 50%;
-// }
+.wrapper a:hover {
+  color: grey;
+}
 
-// .design-archives ul {
-//   background-color: white;
-//   border-radius: 50%;
-//   width: 175px;
-//   height: 175px;
-//   margin: 0 auto;
-// }
+ul {
+  list-style: none;
+  font-size: 13px;
+}
 
-// .zen-resources {
-//   width: 250px;
-//   height: 250px;
-//   background: maroon;
-//   border-radius: 50%;
-//   list-style: none;
-// }
+.wrapper,
+h3 {
+  padding-top: 3em;
+  font-size: 15px;
+}
 
-// .zen-resources ul {
-//   background-color: white;
-//   border-radius: 50%;
-//   width: 175px;
-//   height: 175px;
-//   margin: 0 auto;
-// }
+/* Pool Balls */
+.extra1 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  margin-top: -1440px;
+  margin-left: 170px;
+}
 
-// .wrapper a:link {
-//   color: black;
-// }
+.extra1::after {
+  content: "1";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
 
-// .wrapper a:hover {
-//   color: grey;
-// }
+.extra2 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: purple;
+  margin-left: 180px;
+  margin-top: -940px;
+}
 
-// ul {
-//   list-style: none;
-//   font-size: 13px;
-// }
+.extra2::after {
+  content: "2";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
 
-// .wrapper,
-// h3 {
-//   padding-top: 3em;
-//   font-size: 15px;
-// }
+.extra3 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: yellow;
+  margin-left: 140px;
+  margin-top: -405px;
+}
+
+.extra3::after {
+  content: "3";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+
+.extra4 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: orange;
+  margin-left: 720px;
+  margin-top: -1110px;
+}
+
+.extra4::after {
+  content: "4";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+
+.extra5 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #9dec9d;
+  margin-left: 770px;
+  margin-top: -405px;
+}
+
+.extra5::after {
+  content: "5";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+
+.extra6 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  margin-left: 700px;
+  margin-top: -1692px;
+}
+
+.extra6::after {
+  content: "8";
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+}
+
 
 .intro {
   display: grid;
@@ -310,16 +458,10 @@ header h2 {
 .intro h1 {
   font-size: 40px;
 }
-/* 
-.intro h1 {
-    text-align: center;
-    background-color: transparent;
-    padding-top: 2em;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid #D2B48C;
-    border-radius: 50%;
-  } */
+
+footer {
+  display: none;
+}
 .wrapper {
   text-align: center;
   list-style: none;
@@ -411,203 +553,18 @@ ul {
   font-size: 9px;
 }
 
-// .wrapper,
-// h3 {
-//   padding-bottom: .5em;
-//   padding-top: 1.5em;
-//   font-size: 15px;
-// }
-/* Pool Balls */
-.extra1 {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: red;
-  margin-top: -1455px;
-  margin-left: 170px;
-
-}
-
-.extra1::after {
-  content: "1";
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -12px 0 0 -12px;
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  line-height: 25px;
-}
-
-.extra2 {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: purple;
-  margin-left: 180px;
-  margin-top: -960px;
 
 
-}
 
-.extra2::after {
-  content: "2";
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -12px 0 0 -12px;
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  line-height: 25px;
-}
 
-.extra3 {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: yellow;
-  margin-left: 140px;
-  margin-top: -420px;
-
-}
-
-.extra3::after {
-  content: "3";
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -12px 0 0 -12px;
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  line-height: 25px;
-}
-
-.extra4 {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: orange;
-  margin-left: 720px;
-  margin-top: -1110px;
-
-}
-
-.extra4::after {
-  content: "4";
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -12px 0 0 -12px;
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  line-height: 25px;
-}
-
-.extra5 {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: rgb(157, 236, 157);
-  margin-left: 770px;
-  margin-top: -424px;
-
-}
-
-.extra5::after {
-  content: "5";
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -12px 0 0 -12px;
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  line-height: 25px;
-}
-
-.extra6 {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: black;
-  margin-left: 700px;
-  margin-top: -1708px;
-
-}
-
-.extra6::after {
-  content: "8";
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -12px 0 0 -12px;
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  line-height: 25px;
-}
-
-/* Pool Ball End */
 
 
 
+/* Pool Ball End */
 @media screen and (max-width: 550px) {
   .supporting {
     width: auto;
     background-size: 100% 100%;
-
   }
 
   body {
@@ -615,12 +572,12 @@ ul {
   }
 
   .explanation p,
-  .benefits p,
-  .participation p,
-  .requirements p {
+.benefits p,
+.participation p,
+.requirements p {
     width: 300px;
     padding: 0 50px;
-    font-size: .7em;
+    font-size: 0.7em;
   }
 
   .benefits p {
@@ -628,14 +585,14 @@ ul {
   }
 
   .explanation,
-  .benefits,
-  .participation,
-  .requirements {
+.benefits,
+.participation,
+.requirements {
     width: auto;
   }
 
   .explanation h3,
-  .benefits h3 {
+.benefits h3 {
     margin-left: -100px;
     padding-right: 0;
     padding-left: 0;
@@ -653,12 +610,11 @@ ul {
 
   .requirements h3 {
     padding-left: 90px;
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
   }
 
   .participation {
     margin-top: 350px;
-
   }
 
   .benefits {
@@ -670,7 +626,7 @@ ul {
   }
 
   .participation h3,
-  .requirements h3 {
+.requirements h3 {
     font-size: 1.3em;
     margin-left: -100px;
   }
@@ -679,8 +635,9 @@ ul {
     padding-left: 90px;
   }
 
-  .extra1, .extra2, .extra3, .extra4, .extra5, .extra6{
+  .extra1, .extra2, .extra3, .extra4, .extra5, .extra6 {
     display: none;
   }
 }
 
+/*# sourceMappingURL=styles.css.map */
